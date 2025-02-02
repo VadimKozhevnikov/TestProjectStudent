@@ -1,0 +1,13 @@
+[
+  {
+    "ContainingType": "APIForDB.Controllers.ProfileController",
+    "Method": "GetUsers",
+    "RelativePath": "Profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetUsersController"
+  }
+]

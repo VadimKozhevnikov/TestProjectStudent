@@ -1,0 +1,45 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:TestProject.ViewModels"
+			 xmlns:pages="using:TestProject"
+             mc:Ignorable="d" d:DesignWidth="350" d:DesignHeight="614"
+             x:Class="TestProject.Views.MainView"
+             x:DataType="vm:MainViewModel">
+  <Design.DataContext>
+    <vm:MainViewModel />
+  </Design.DataContext>
+	<Grid>
+		<TabControl TabStripPlacement="Bottom">
+			<TabItem Margin="5 0 0 0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" MinWidth="116">
+				<TabItem.Header>
+					<StackPanel Orientation="Horizontal">
+						<Image Source="/Assets/home.png" Width="20" Margin="0 0 5 0"/>
+						<TextBlock Text="Главная"/>
+					</StackPanel>
+				</TabItem.Header>
+				<pages:HomePageView/>
+			</TabItem>
+			<TabItem HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" MinWidth="116">
+				<TabItem.Header>
+					<StackPanel Orientation="Horizontal">
+						<Image Source="/Assets/drawer.png" Width="20" Margin="0 0 5 0"/>
+						<TextBlock Text="Услуги"/>
+					</StackPanel>
+				</TabItem.Header>
+				<pages:ServicePageView/>
+			</TabItem>
+			<TabItem HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" MinWidth="116">
+				<TabItem.Header>
+					<StackPanel Orientation="Horizontal">
+						<Image Source="/Assets/profile.png" Width="20" Margin="0 0 5 0"/>
+						<TextBlock Text="Профиль"/>
+					</StackPanel>
+				</TabItem.Header>
+				<pages:ProfilePageView/>
+			</TabItem>
+		</TabControl>
+	</Grid>
+  
+</UserControl>

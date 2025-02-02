@@ -1,0 +1,8 @@
+drawable\black;drawable\black
+drawable\blue;drawable\blue
+drawable\forprofile;drawable\ForProfile
+drawable\gerb;drawable\Gerb
+drawable\icon;drawable\Icon
+drawable\splash_screen;drawable\splash_screen
+values\colors;values\colors
+values\styles;values\styles
