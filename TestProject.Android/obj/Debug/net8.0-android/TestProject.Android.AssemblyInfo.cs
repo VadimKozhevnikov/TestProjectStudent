@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestProject.Android")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+552d23820767dc6436368a71b396ba5a0e2c259b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestProject.Android")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestProject.Android")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0")]

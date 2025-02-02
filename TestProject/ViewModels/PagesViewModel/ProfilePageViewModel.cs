@@ -30,6 +30,10 @@ namespace TestProject.ViewModels.PagesViewModel
         {
             SignIn = ReactiveCommand.Create(async () =>
             {
+                var client = new HttpClient();
+                //var joke = await client.GetFromJsonAsync<List<Users>>("https://testprojectstudent.vercel.app/");
+                HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Get, "https://testprojectstudent.vercel.app/");
+                Debug.WriteLine(request.Headers.Date.ToString());
                 using (DataBase db = new DataBase())
                 {
                     //var list = db.Users.Where(x => x.Login == Login && x.Password == Password).FirstOrDefault();

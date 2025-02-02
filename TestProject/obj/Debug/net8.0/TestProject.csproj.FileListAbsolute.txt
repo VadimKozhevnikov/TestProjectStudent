@@ -16,3 +16,4 @@ C:\Users\Вадим\OneDrive\Рабочий стол\TestProject\TestProject\obj
 C:\Users\Вадим\OneDrive\Рабочий стол\TestProject\TestProject\obj\Debug\net8.0\ref\TestProject.dll
 C:\Users\Вадим\OneDrive\Рабочий стол\TestProject\TestProject\bin\Debug\net8.0\TestProject.runtimeconfig.json
 C:\Users\Вадим\OneDrive\Рабочий стол\TestProject\TestProject\obj\Debug\net8.0\TestProject.genruntimeconfig.cache
+C:\Users\Вадим\OneDrive\Рабочий стол\TestProject\TestProject\obj\Debug\net8.0\TestProject.sourcelink.json
