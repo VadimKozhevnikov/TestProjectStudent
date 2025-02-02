@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "Program.cs",
+      "src": "APIForDB.csproj",
       "use": "@versel/dotnet"
     }
   ],
